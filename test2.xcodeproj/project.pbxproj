@@ -15,6 +15,8 @@
 		F9098A671C90D05A00A6E2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9098A651C90D05A00A6E2C5 /* LaunchScreen.storyboard */; };
 		F9098A721C90D05A00A6E2C5 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9098A711C90D05A00A6E2C5 /* test2Tests.m */; };
 		F9098A7D1C90D05A00A6E2C5 /* test2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9098A7C1C90D05A00A6E2C5 /* test2UITests.m */; };
+		F9098A8B1C90D08100A6E2C5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9098A8A1C90D08100A6E2C5 /* button.png */; };
+		F9098A8D1C90D38000A6E2C5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9098A8C1C90D38000A6E2C5 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F9098A781C90D05A00A6E2C5 /* test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9098A7C1C90D05A00A6E2C5 /* test2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2UITests.m; sourceTree = "<group>"; };
 		F9098A7E1C90D05A00A6E2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9098A8A1C90D08100A6E2C5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F9098A8C1C90D38000A6E2C5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9098A8D1C90D38000A6E2C5 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		F9098A4B1C90D05A00A6E2C5 = {
 			isa = PBXGroup;
 			children = (
+				F9098A8C1C90D38000A6E2C5 /* iAd.framework */,
 				F9098A561C90D05A00A6E2C5 /* test2 */,
 				F9098A701C90D05A00A6E2C5 /* test2Tests */,
 				F9098A7B1C90D05A00A6E2C5 /* test2UITests */,
@@ -117,6 +123,7 @@
 		F9098A571C90D05A00A6E2C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9098A8A1C90D08100A6E2C5 /* button.png */,
 				F9098A581C90D05A00A6E2C5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9098A671C90D05A00A6E2C5 /* LaunchScreen.storyboard in Resources */,
+				F9098A8B1C90D08100A6E2C5 /* button.png in Resources */,
 				F9098A641C90D05A00A6E2C5 /* Assets.xcassets in Resources */,
 				F9098A621C90D05A00A6E2C5 /* Main.storyboard in Resources */,
 			);
